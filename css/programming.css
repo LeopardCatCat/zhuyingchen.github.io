@@ -1,0 +1,123 @@
+/* 添加样式来美化页面外观 */
+body {
+    margin: 0px;
+    padding-bottom: 0px;
+    }
+
+.header {
+    background-color: greenyellow; /* 设置背景颜色 */
+    color: white; /* 设置文本颜色 */
+    /* padding: 20px; 设置内补白 */
+    text-align: center; /* 设置文本居中对齐 */
+    font-size: 36px; /* 设置字体大小 */
+    font-family: 'STXinwei';
+    /* font-weight: bold; 设置文字加粗 */
+    height: 100px;
+  }
+  
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    display: inline-block;
+}
+    
+li a {
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+.nav {
+background-color: red;
+font-family: 'STXinwei';
+}
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+  }
+  
+  .left-box,
+  .middle-box,
+  .right-box {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .left-box {
+    background-color: lightgray;
+  }
+  
+  .middle-box {
+    background-color: lightblue;
+  }
+  
+  .right-box {
+    background-color: lightgreen;
+  }
+  
+  .arrow {
+    font-size: 30px;
+    cursor: pointer;
+  }
+  
+  .active {
+    display: block;
+  }
+  
+  .content {
+    display: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* 修改箭头样式 */
+  #prevArrow {
+    float: left;
+  }
+  
+  #nextArrow {
+    float: right;
+  }
+  
+
+
+
+  body {
+    margin: 0px;
+    padding-bottom: 0px;
+    }
+
+.header {
+        background-color: greenyellow; /* 设置背景颜色 */
+        color: white; /* 设置文本颜色 */
+        /* padding: 20px; 设置内补白 */
+        text-align: center; /* 设置文本居中对齐 */
+        font-size: 36px; /* 设置字体大小 */
+        /* font-weight: bold; 设置文字加粗 */
+        height: 100px;
+      }
+       
+.nav {
+    background-color: red;
+  }
+
+  
+
+
+
+
+
